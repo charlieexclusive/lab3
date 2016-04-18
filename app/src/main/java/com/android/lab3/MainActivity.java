@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public int sum(String first, String second){
-        int addition = Integer.parseInt(first) + Integer.parseInt(second);
+    public double sum(String first, String second){
+        double addition = Double.parseDouble(first) + Double.parseDouble(second);
         return addition;
     }
 
