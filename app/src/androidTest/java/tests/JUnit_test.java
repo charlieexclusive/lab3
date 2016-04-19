@@ -19,8 +19,8 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
     {
         mainActivity = getActivity();
 
-        assertEquals(mainActivity.sum("3","4"), 7.0);
-        assertEquals(mainActivity.sum("1","78"), 79.0);
-        assertEquals(mainActivity.sum("2","8"), 10.0);
+        assertEquals(mainActivity.sum("3","4"), -1.0);
+        assertEquals(mainActivity.sum("1","78"), -77.0);
+        assertEquals(mainActivity.sum("2","8"), -6.0);
     }
 }
